@@ -1,9 +1,3 @@
-/*
- Kalena Abrahim
- 2/2/24
- Apply Sales Tax
- */
- 
 import java.util.Scanner;
 
 public class ApplySalesTax {
@@ -34,24 +28,3 @@ public class ApplySalesTax {
         return (taxRate % 1 == 0) ? String.format("%.1f", taxRate) : String.format("%.2f", taxRate);
     }
 }
-
-// =============== LAB SUMMARY ===============
-
-/*
-1. How much time was required to complete this assignment?
-
-It took me a couple of hours actually. 
-
-2. What was the hardest part of this lab?
-
-I think the hardest part was crafting out the final print statement. Due to all the components 
-needed to output the final sentence, making sure it was correctly formatted was crucial. I continued
-to get an error with the second CodeGrade test, showing that the 7.25% was not staying true.
-So, I ended up needed to make a private String to ensure that the format of the percentage
-stays.
-
-3. What will you always remember (never forget) from this exercise?
-
-To always see the exercise for what it is, and to not overcomplicate it.
-
-*/
